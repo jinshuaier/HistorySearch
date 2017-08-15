@@ -15,6 +15,18 @@
 		B965B16B1F2ACA53000D7764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B965B1691F2ACA53000D7764 /* LaunchScreen.storyboard */; };
 		B965B1761F2ACA53000D7764 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B965B1751F2ACA53000D7764 /* ________Tests.m */; };
 		B965B1811F2ACA53000D7764 /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B965B1801F2ACA53000D7764 /* ________UITests.m */; };
+		B96851481F2EBF7000D7D4B1 /* TCCreatePlist.m in Sources */ = {isa = PBXBuildFile; fileRef = B96851471F2EBF7000D7D4B1 /* TCCreatePlist.m */; };
+		B968514A1F2EC81E00D7D4B1 /* shop按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = B96851491F2EC81E00D7D4B1 /* shop按钮.png */; };
+		B968514D1F2ECCCF00D7D4B1 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B968514C1F2ECCCF00D7D4B1 /* TwoViewController.m */; };
+		B96851501F3010AC00D7D4B1 /* TCProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B968514F1F3010AC00D7D4B1 /* TCProgressHUD.m */; };
+		B96851521F3056C800D7D4B1 /* 搜索.png in Resources */ = {isa = PBXBuildFile; fileRef = B96851511F3056C800D7D4B1 /* 搜索.png */; };
+		B96851541F30571100D7D4B1 /* 搜索中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B96851531F30571100D7D4B1 /* 搜索中@2x.png */; };
+		B96852141F306E9D00D7D4B1 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B96852081F306E9D00D7D4B1 /* AFHTTPSessionManager.m */; };
+		B96852151F306E9D00D7D4B1 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B968520B1F306E9D00D7D4B1 /* AFNetworkReachabilityManager.m */; };
+		B96852161F306E9D00D7D4B1 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = B968520D1F306E9D00D7D4B1 /* AFSecurityPolicy.m */; };
+		B96852171F306E9D00D7D4B1 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B968520F1F306E9D00D7D4B1 /* AFURLRequestSerialization.m */; };
+		B96852181F306E9D00D7D4B1 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B96852111F306E9D00D7D4B1 /* AFURLResponseSerialization.m */; };
+		B96852191F306E9D00D7D4B1 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B96852131F306E9D00D7D4B1 /* AFURLSessionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,29 @@
 		B965B17C1F2ACA53000D7764 /* 搜索框&历史记录UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "搜索框&历史记录UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B965B1801F2ACA53000D7764 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
 		B965B1821F2ACA53000D7764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B96851461F2EBF7000D7D4B1 /* TCCreatePlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCCreatePlist.h; sourceTree = "<group>"; };
+		B96851471F2EBF7000D7D4B1 /* TCCreatePlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCCreatePlist.m; sourceTree = "<group>"; };
+		B96851491F2EC81E00D7D4B1 /* shop按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shop按钮.png"; sourceTree = "<group>"; };
+		B968514B1F2ECCCF00D7D4B1 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		B968514C1F2ECCCF00D7D4B1 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		B968514E1F3010A700D7D4B1 /* TCProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCProgressHUD.h; sourceTree = "<group>"; };
+		B968514F1F3010AC00D7D4B1 /* TCProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCProgressHUD.m; sourceTree = "<group>"; };
+		B96851511F3056C800D7D4B1 /* 搜索.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索.png"; sourceTree = "<group>"; };
+		B96851531F30571100D7D4B1 /* 搜索中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索中@2x.png"; sourceTree = "<group>"; };
+		B96851831F30665300D7D4B1 /* HGG.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGG.pch; sourceTree = "<group>"; };
+		B96852071F306E9D00D7D4B1 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		B96852081F306E9D00D7D4B1 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		B96852091F306E9D00D7D4B1 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		B968520A1F306E9D00D7D4B1 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		B968520B1F306E9D00D7D4B1 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		B968520C1F306E9D00D7D4B1 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		B968520D1F306E9D00D7D4B1 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		B968520E1F306E9D00D7D4B1 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		B968520F1F306E9D00D7D4B1 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		B96852101F306E9D00D7D4B1 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		B96852111F306E9D00D7D4B1 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		B96852121F306E9D00D7D4B1 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		B96852131F306E9D00D7D4B1 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +140,22 @@
 				B965B15F1F2ACA53000D7764 /* AppDelegate.m */,
 				B965B1611F2ACA53000D7764 /* ViewController.h */,
 				B965B1621F2ACA53000D7764 /* ViewController.m */,
+				B968514B1F2ECCCF00D7D4B1 /* TwoViewController.h */,
+				B968514C1F2ECCCF00D7D4B1 /* TwoViewController.m */,
+				B968514E1F3010A700D7D4B1 /* TCProgressHUD.h */,
+				B968514F1F3010AC00D7D4B1 /* TCProgressHUD.m */,
 				B965B1641F2ACA53000D7764 /* Main.storyboard */,
 				B965B1671F2ACA53000D7764 /* Assets.xcassets */,
 				B965B1691F2ACA53000D7764 /* LaunchScreen.storyboard */,
+				B96851491F2EC81E00D7D4B1 /* shop按钮.png */,
+				B96851511F3056C800D7D4B1 /* 搜索.png */,
+				B96851531F30571100D7D4B1 /* 搜索中@2x.png */,
 				B965B16C1F2ACA53000D7764 /* Info.plist */,
 				B965B15B1F2ACA53000D7764 /* Supporting Files */,
+				B96851461F2EBF7000D7D4B1 /* TCCreatePlist.h */,
+				B96851471F2EBF7000D7D4B1 /* TCCreatePlist.m */,
+				B96851831F30665300D7D4B1 /* HGG.pch */,
+				B96852061F306E9D00D7D4B1 /* AFNetworking */,
 			);
 			path = "搜索框&历史记录";
 			sourceTree = "<group>";
@@ -138,6 +184,26 @@
 				B965B1821F2ACA53000D7764 /* Info.plist */,
 			);
 			path = "搜索框&历史记录UITests";
+			sourceTree = "<group>";
+		};
+		B96852061F306E9D00D7D4B1 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				B96852071F306E9D00D7D4B1 /* AFHTTPSessionManager.h */,
+				B96852081F306E9D00D7D4B1 /* AFHTTPSessionManager.m */,
+				B96852091F306E9D00D7D4B1 /* AFNetworking.h */,
+				B968520A1F306E9D00D7D4B1 /* AFNetworkReachabilityManager.h */,
+				B968520B1F306E9D00D7D4B1 /* AFNetworkReachabilityManager.m */,
+				B968520C1F306E9D00D7D4B1 /* AFSecurityPolicy.h */,
+				B968520D1F306E9D00D7D4B1 /* AFSecurityPolicy.m */,
+				B968520E1F306E9D00D7D4B1 /* AFURLRequestSerialization.h */,
+				B968520F1F306E9D00D7D4B1 /* AFURLRequestSerialization.m */,
+				B96852101F306E9D00D7D4B1 /* AFURLResponseSerialization.h */,
+				B96852111F306E9D00D7D4B1 /* AFURLResponseSerialization.m */,
+				B96852121F306E9D00D7D4B1 /* AFURLSessionManager.h */,
+				B96852131F306E9D00D7D4B1 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,8 +312,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B96851521F3056C800D7D4B1 /* 搜索.png in Resources */,
 				B965B16B1F2ACA53000D7764 /* LaunchScreen.storyboard in Resources */,
+				B96851541F30571100D7D4B1 /* 搜索中@2x.png in Resources */,
 				B965B1681F2ACA53000D7764 /* Assets.xcassets in Resources */,
+				B968514A1F2EC81E00D7D4B1 /* shop按钮.png in Resources */,
 				B965B1661F2ACA53000D7764 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,8 +343,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				B965B1631F2ACA53000D7764 /* ViewController.m in Sources */,
+				B96852151F306E9D00D7D4B1 /* AFNetworkReachabilityManager.m in Sources */,
+				B96851481F2EBF7000D7D4B1 /* TCCreatePlist.m in Sources */,
 				B965B1601F2ACA53000D7764 /* AppDelegate.m in Sources */,
+				B968514D1F2ECCCF00D7D4B1 /* TwoViewController.m in Sources */,
 				B965B15D1F2ACA53000D7764 /* main.m in Sources */,
+				B96852161F306E9D00D7D4B1 /* AFSecurityPolicy.m in Sources */,
+				B96852171F306E9D00D7D4B1 /* AFURLRequestSerialization.m in Sources */,
+				B96851501F3010AC00D7D4B1 /* TCProgressHUD.m in Sources */,
+				B96852181F306E9D00D7D4B1 /* AFURLResponseSerialization.m in Sources */,
+				B96852191F306E9D00D7D4B1 /* AFURLSessionManager.m in Sources */,
+				B96852141F306E9D00D7D4B1 /* AFHTTPSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,8 +502,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/hugaoguang/Desktop/搜索框&历史记录 3/搜索框&历史记录/HGG.pch";
 				INFOPLIST_FILE = "搜索框&历史记录/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "hgg.--------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -435,8 +518,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/hugaoguang/Desktop/搜索框&历史记录 3/搜索框&历史记录/HGG.pch";
 				INFOPLIST_FILE = "搜索框&历史记录/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "hgg.--------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -507,6 +595,7 @@
 				B965B1871F2ACA53000D7764 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B965B1881F2ACA53000D7764 /* Build configuration list for PBXNativeTarget "搜索框&历史记录Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +604,7 @@
 				B965B18A1F2ACA53000D7764 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B965B18B1F2ACA53000D7764 /* Build configuration list for PBXNativeTarget "搜索框&历史记录UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +613,7 @@
 				B965B18D1F2ACA53000D7764 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

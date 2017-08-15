@@ -1,0 +1,28 @@
+//
+//  HGG.pch
+//  搜索框&历史记录
+//
+//  Created by 胡高广 on 2017/8/1.
+//  Copyright © 2017年 胡高广. All rights reserved.
+//
+
+#ifndef HGG_pch
+#define HGG_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//此处是防止导入AFNetWorking时报错
+
+
+#ifndef TARGET_OS_IOS
+
+#define TARGET_OS_IOS TARGET_OS_IPHONE
+
+#endif
+
+#ifndef TARGET_OS_WATCH
+
+#define TARGET_OS_WATCH 0
+
+#endif
+#endif
